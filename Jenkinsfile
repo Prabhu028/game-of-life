@@ -9,8 +9,8 @@ pipeline{
     stages{
         stage('sorce code'){
             steps{
-                git url:'',
-                    branch:''
+                git url:'https://github.com/Prabhu028/game-of-life.git',
+                    branch:'master'
             }
         }
         stage('mvngoal'){
